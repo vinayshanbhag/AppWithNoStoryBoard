@@ -7,21 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A11BEF531BD161C7002B6D89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11BEF521BD161C7002B6D89 /* AppDelegate.swift */; };
-		A11BEF551BD161C7002B6D89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11BEF541BD161C7002B6D89 /* ViewController.swift */; };
-		A11BEF581BD161C7002B6D89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11BEF561BD161C7002B6D89 /* Main.storyboard */; };
 		A11BEF5A1BD161C7002B6D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11BEF591BD161C7002B6D89 /* Assets.xcassets */; };
-		A11BEF5D1BD161C7002B6D89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11BEF5B1BD161C7002B6D89 /* LaunchScreen.storyboard */; };
+		A11BEF651BD16224002B6D89 /* CustomEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11BEF641BD16224002B6D89 /* CustomEntryPoint.swift */; settings = {ASSET_TAGS = (); }; };
+		A11BEF691BD16654002B6D89 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11BEF681BD16654002B6D89 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A11BEF4F1BD161C7002B6D89 /* AppWithNoStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWithNoStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A11BEF521BD161C7002B6D89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A11BEF541BD161C7002B6D89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A11BEF571BD161C7002B6D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A11BEF591BD161C7002B6D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A11BEF5C1BD161C7002B6D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A11BEF5E1BD161C7002B6D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11BEF641BD16224002B6D89 /* CustomEntryPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomEntryPoint.swift; sourceTree = "<group>"; };
+		A11BEF681BD16654002B6D89 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +50,10 @@
 		A11BEF511BD161C7002B6D89 /* AppWithNoStoryBoard */ = {
 			isa = PBXGroup;
 			children = (
-				A11BEF521BD161C7002B6D89 /* AppDelegate.swift */,
-				A11BEF541BD161C7002B6D89 /* ViewController.swift */,
-				A11BEF561BD161C7002B6D89 /* Main.storyboard */,
+				A11BEF641BD16224002B6D89 /* CustomEntryPoint.swift */,
 				A11BEF591BD161C7002B6D89 /* Assets.xcassets */,
-				A11BEF5B1BD161C7002B6D89 /* LaunchScreen.storyboard */,
 				A11BEF5E1BD161C7002B6D89 /* Info.plist */,
+				A11BEF681BD16654002B6D89 /* Launch Screen.storyboard */,
 			);
 			path = AppWithNoStoryBoard;
 			sourceTree = "<group>";
@@ -90,6 +84,7 @@
 		A11BEF471BD161C7002B6D89 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Vinay Shanbhag";
 				TargetAttributes = {
@@ -121,9 +116,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11BEF5D1BD161C7002B6D89 /* LaunchScreen.storyboard in Resources */,
+				A11BEF691BD16654002B6D89 /* Launch Screen.storyboard in Resources */,
 				A11BEF5A1BD161C7002B6D89 /* Assets.xcassets in Resources */,
-				A11BEF581BD161C7002B6D89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,31 +128,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11BEF551BD161C7002B6D89 /* ViewController.swift in Sources */,
-				A11BEF531BD161C7002B6D89 /* AppDelegate.swift in Sources */,
+				A11BEF651BD16224002B6D89 /* CustomEntryPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A11BEF561BD161C7002B6D89 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A11BEF571BD161C7002B6D89 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A11BEF5B1BD161C7002B6D89 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A11BEF5C1BD161C7002B6D89 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A11BEF5F1BD161C7002B6D89 /* Debug */ = {
@@ -248,10 +222,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AppWithNoStoryBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vinay.shanbhag.AppWithNoStoryBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -259,10 +236,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AppWithNoStoryBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vinay.shanbhag.AppWithNoStoryBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
